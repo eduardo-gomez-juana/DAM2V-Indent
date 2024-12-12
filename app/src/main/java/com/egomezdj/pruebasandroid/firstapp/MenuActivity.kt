@@ -13,8 +13,8 @@ class MenuActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_menu)
 
-        val btnSaludApp = findViewById<Button>(R.id.btnSaludApp)
-        btnSaludApp.setOnClickListener{ navigateToSaludApp() }
+        val btnDatos = findViewById<Button>(R.id.btnDatos)
+        btnDatos.setOnClickListener{ navigateToSaludApp() }
     }
 
     fun navigateToSaludApp(){
